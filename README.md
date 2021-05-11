@@ -45,5 +45,5 @@ The delivered folder contains two versions of the compiler: the first one output
 The second version instead has a slightly modified Bison file. The grammar is the same but this time instead of simply output the instructions in 3AC an executable C file is created (if obviously no errors are found during compilation). The syntactic analyzer also creates a library "temp.h" that contains the libraries "uthash.h" (used for the symbol table) and "list.h" (used for the symbol table stack) and declares the variable "list" initializing it to NULL and all the temporary variables needed for the execution of the output C file. In this case the outputs are each inside a separate folder (in Version 2) along with the libraries needed to compile and run the C file.
 The two versions share the Flex file, the "list.h" and "uthash.h" libraries, and the input files.
 
-PLEASE NOTE THIS IS THE ENGLISH VERSION OF THE FILE relazione finale
+PLEASE NOTE THIS IS THE ENGLISH VERSION OF THE FILE relazione 
 
